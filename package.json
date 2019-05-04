@@ -1,0 +1,23 @@
+{
+  "name": "whorl-timeit",
+  "version": "0.0.0",
+  "description": "Whorl Timming Decorator",
+  "main": "index.js",
+  "repository": "https://github.com/whorljs/whorl-timeit.git",
+  "author": "Eric Pattison <epattison@bastiongames.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -p ./config/tsconfig.app.json",
+    "watch": "tsc -w -p ./config/tsconfig.app.json",
+    "lint": "tslint -c tslint.json -p ./config/tsconfig.app.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "@types/node": "^11.13.8",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}

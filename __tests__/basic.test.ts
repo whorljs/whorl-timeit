@@ -1,0 +1,3 @@
+test('single method timeit', () => {
+
+});
